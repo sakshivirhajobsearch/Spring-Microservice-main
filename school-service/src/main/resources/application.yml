@@ -1,0 +1,25 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+  application:
+    name: SCHOOL-SERVICE
+  datasource:
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/schoolservice
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: 'true'
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    fetch-registry: 'true'
+server:
+  port: '8082'
