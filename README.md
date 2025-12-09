@@ -19,7 +19,7 @@ No description provided.
 
 ## 🧠 Tech Stack Used
 
-- **Detected Technologies:** Java, Spring Boot
+- **Detected Technologies:** Java (Maven/Gradle), Spring Boot, MySQL, MongoDB, Kubernetes / K8s, GCP
 - **GitHub Topics:** None
 
 ---
